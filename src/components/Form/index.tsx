@@ -30,6 +30,13 @@ export function Form({ feedbackType }: Props) {
           <Text style={styles.titleText}>{feedbackTypeInfo.title}</Text>
         </View>
       </View>
+
+      <TextInput
+        style={styles.input}
+        multiline
+        placeholder="Algo não está funcionando bem? Queremos corrigir. Conte com detalhes o que está acontecendo..."
+        placeholderTextColor={theme.colors.text_secondary}
+      />
     </View>
   );
 }
