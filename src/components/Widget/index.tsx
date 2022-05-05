@@ -52,7 +52,7 @@ function Widget() {
           <>
             {feedbackType ? (
               <Form
-                feedbackType="OTHER"
+                feedbackType={feedbackType}
                 onFeedbackCanceled={handleRestartFeedback}
                 onFeedbackSent={handleFeedbackSent}
               />
