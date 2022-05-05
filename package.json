@@ -1,0 +1,49 @@
+{
+  "name": "feedget-mob",
+  "description": "Try submitting a bug feedback in the app 🐛",
+  "repository": "https://github.com/caiohenrique-developer/feedget-mob.git",
+  "bugs": {
+    "url": "https://github.com/caiohenrique-developer/feedget-mob/issues"
+  },
+  "main": "node_modules/expo/AppEntry.js",
+  "author": "Caio Henrique <caiohenrique.developer@gmail.com> (https://github.com/caiohenrique-developer)",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "keywords": [],
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./.cz-config.js"
+    }
+  },
+  "dependencies": {
+    "expo": "~44.0.0",
+    "expo-status-bar": "~1.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-web": "0.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "@types/react": "~17.0.21",
+    "@types/react-native": "~0.64.12",
+    "commitizen": "^4.2.4",
+    "cz-customizable": "^6.3.0",
+    "husky": "^7.0.4",
+    "typescript": "~4.3.5"
+  }
+}
